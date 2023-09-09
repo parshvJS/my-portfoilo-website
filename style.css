@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 2154px;
+    background-image: url(/images/mainBG.png);
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 1244px;
+    height: 51px;
+    background-blend-mode: color-burn;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 23px;
+    border-radius: 12px;
+    border: 3px solid #000;
+    background: rgba(255, 255, 255, 0.30);
+    position: fixed;
+    z-index: 99;
+
+}
+
+.logo a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    text-decoration: none;
+
+    margin: 13px 565px 10px 44px;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons a {
+    color: #000;
+    text-align: center;
+
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    text-decoration: none;
+
+}
+
+.icons a:hover {
+    color: #FFC300;
+    text-align: center;
+
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+
+}
+
+
+
+/* hero section */
+.hero-section .name {
+    color: #000;
+margin-top: 10px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    display: inline-block;
+    line-height: normal;
+}
+
+.l1 {
+    margin: 100px 157px 0px 120px;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.desc {
+    display: inline-block;
+    color: #000;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 500px;
+
+}
+
+.desc p {
+    width: 471px;
+    margin-left: 160px;
+    color: #000;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 24px;
+    border-left: 3px solid black;
+}
+
+.occ {
+ margin-top: 80px;
+ margin:80px 0px 0px 40% ;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+position: relative;
+}
+.profile{
+    display: inline-block;
+    position: absolute;
+    margin: 100px 51px;
+
+}
+.love{
+    width: 600px;
+transform: rotate(8.259deg);
+
+color: #383838;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.love p {
+    margin-top: -40px;
+display: inline-block;
+}
+#coffee {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0,0px); }
+	50% { transform: translate(0, 10px); }
+	100%{ transform: translate(0, -0px); }
+}
