@@ -11,6 +11,59 @@
     background-repeat: no-repeat;
 }
 
+
+
+
+
+.socials{
+	display: grid;
+	place-items: center;
+	background: var(--bgcolor);
+	color: white;
+}
+
+/*  links sidebar CSS  */
+._social-links {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	transform: translatey(-50%);
+	padding: 1em 0.5em 1em 1em;
+	background: #fafafa;
+	border-radius: 0.5em 0 0 0.5em;
+	box-shadow: -4px 0px 0px #FFC300;
+	transition: all 300ms ease;
+}
+
+._social-links:hover {
+	box-shadow: -8px 0px 20px FFC300;
+	padding: 1em;
+}
+
+._links-list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+._social-link a {
+	color: #111;
+	font-size: 1.5rem;
+	transition: all 200ms ease;
+}
+._social-link a:visited {
+	color: #111;
+}
+._social-link a:hover {
+	color: #FFC300;
+	font-size: 1.75rem;
+}
+
+/* //////////////////////////// */
+
+
+
+
 nav {
     width: 1244px;
     height: 51px;
@@ -165,3 +218,43 @@ display: inline-block;
 	50% { transform: translate(0, 10px); }
 	100%{ transform: translate(0, -0px); }
 }
+
+
+@font-face {
+    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+      format("woff2");
+    font-family: "Meta";
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  .logo{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  
+  }
+  
+  main {
+    font-variation-settings: "wght" 200, "ital" 0;
+    text-shadow: none;
+    
+    transition: all 0.5s;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 35px;
+    text-align: center;
+    color: transparent;
+   
+  }
+  
+  main:hover {
+    font-variation-settings: "wght" 500, "ital" 1;
+     /* font-family: "Meta", sans-serif; */
+    text-shadow: -4px -4px 0px #e1ff00,
+      4px 4px 0px #ffb700,
+      8px 8px 13px #ffb300;
+    cursor: pointer;
+  
+  }
+       
